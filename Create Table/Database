@@ -1,0 +1,16 @@
+*For Create Database*
+Create Database Student 
+
+*For Create Tables*
+
+CREATE TABLE users (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(150),
+    password VARCHAR(100),
+    contact VARCHAR(15),
+    address TEXT,
+    dob DATE,
+    gender ENUM('M', 'F', 'O'),
+    status BOOLEAN
+);
