@@ -1,4 +1,4 @@
-**Insert Data**
+__Insert Data__
 
 INSERT INTO student
 (id,name,email,password,contact,address,dob,gender,status)
