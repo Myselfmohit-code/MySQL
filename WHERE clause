@@ -1,0 +1,4 @@
+It WHERE clause is used to filter records
+
+SELECT * FROM users where gender != 'M'
+
