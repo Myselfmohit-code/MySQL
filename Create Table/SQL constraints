@@ -1,0 +1,17 @@
+**Apply Constraints**
+
+CREATE TABLE users
+(
+     id INT NOT NULL unique,
+     name varchar(100) not null,
+     email varchar(150) not null unique,
+     age tinyint check (age >= 18),
+     status boolean default 1
+);
+
+**Insert Data**
+
+INSERT INTO users 
+(id,name,email,age)
+values
+(2,"john","john@gmail.com",18)
