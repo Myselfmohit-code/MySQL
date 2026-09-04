@@ -1,0 +1,6 @@
+The IN Operator allows you to Specify multiple Value in a WHERE clause.
+The IN Operator is a shorthand for multiple conditions.
+
+#Code
+
+SELECT * FROM users WHERE age in (21,18,19)
