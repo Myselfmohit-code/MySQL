@@ -1,2 +1,6 @@
 SELECT * FROM users WHERE
-name LIKE "M%" 
+name LIKE "M%"   //Start with M 
+
+
+SELECT * FROM users WHERE
+name LIKE "%m"    // Ends with m
