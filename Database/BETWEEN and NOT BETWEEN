@@ -1,7 +1,20 @@
-# this function show that the people  age between that range
+# this return users age is 18 to 20
 
 SELECT * FROM users WHERE age BETWEEN 18 AND 20
 
-# this function show that the people  age not between that range
+# NOT BETWEEN return values outside the given range
 
 SELECT * FROM users WHERE age NOT BETWEEN 18 AND 20
+
+# Salary 20,000 to 50,000, including both limits.
+
+SELECT * FROM employees
+WHERE salary BETWEEN 20000 AND 50000
+
+
+#Finds users whose date of birth falls within that date range.
+
+SELECT * FROM users
+WHERE dob BETWEEN '2000-01-01' AND '2005-12-31';
+
+
