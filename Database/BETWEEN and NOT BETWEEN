@@ -1,1 +1,7 @@
+# this function show that the people  age between that range
 
+SELECT * FROM users WHERE age BETWEEN 18 AND 20
+
+# this function show that the people  age not between that range
+
+SELECT * FROM users WHERE age NOT BETWEEN 18 AND 20
