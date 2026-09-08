@@ -1,1 +1,28 @@
+*ORDER BY*
 
+#syntax
+SELECT column1, column2
+FROM table_name
+ORDER BY column_name;
+
+#Ascending Order — ASC
+SELECT * FROM users
+ORDER BY name ASC;
+
+#Descending Order — DESC
+SELECT * FROM users
+ORDER BY name DESC;
+
+*DISTINCT*
+
+SELECT DISTINCT name
+FROM users;
+
+#DISTINCT with Multiple Columns
+SELECT DISTINCT city, age
+FROM users;
+
+#DISTINCT + ORDER BY
+SELECT DISTINCT city
+FROM users
+ORDER BY city ASC;
