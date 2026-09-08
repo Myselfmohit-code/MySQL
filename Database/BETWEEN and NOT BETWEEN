@@ -1,4 +1,4 @@
-# this return users age is 18 to 20
+# this return users age is 18 to 20 
 
 SELECT * FROM users WHERE age BETWEEN 18 AND 20
 
