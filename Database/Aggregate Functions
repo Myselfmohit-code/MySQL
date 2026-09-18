@@ -3,7 +3,7 @@ SELECT COUNT(*) FROM users;
 
 2. SUM() – Total nikalna
 SELECT SUM(salary) FROM employees;
-
+ 
 3. AVG() – Average nikalna
 SELECT AVG(salary) FROM employees;
 
