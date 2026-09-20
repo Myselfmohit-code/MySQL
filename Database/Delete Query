@@ -1,1 +1,6 @@
+Delete Query 
+
+SELECT * FROM users
+WHERE age > 22;
+
 
