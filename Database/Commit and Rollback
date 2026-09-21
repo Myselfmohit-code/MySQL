@@ -1,0 +1,13 @@
+#syntax 
+
+UPDATE users
+SET age = 30
+WHERE id = 1
+
+SELECT *FROM users;
+COMMIT;
+
+UPDATE users
+SET age = 30
+WHERE id = 1
+ROLLBACK;
