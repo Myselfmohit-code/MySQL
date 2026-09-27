@@ -1,1 +1,8 @@
+an INNER JOIN combines rows from two or more tables only when there is a matching value in both tables.
 
+
+
+SELECT students.name, courses.course
+FROM students
+INNER JOIN courses
+    ON students.student_id = courses.student_id;
