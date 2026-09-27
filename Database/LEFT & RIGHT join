@@ -1,0 +1,17 @@
+1. LEFT JOIN
+LEFT JOIN → Left table ke saare records aate hain, chahe right table mein matching record ho ya nahi.
+
+SELECT students.name, courses.course
+FROM students
+LEFT JOIN courses
+ON students.student_id = courses.student_id;
+
+
+2. RIGHT JOIN
+
+RIGHT JOIN → Right table ke saare records aate hain, chahe left table mein matching record ho ya nahi.
+
+SELECT students.name, courses.course
+FROM students
+RIGHT JOIN courses
+ON students.student_id = courses.student_id;
