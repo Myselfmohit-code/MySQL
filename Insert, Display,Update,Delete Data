@@ -3,14 +3,15 @@ __Insert Data__
 INSERT INTO student
 (id,name,email,password,contact,address,dob,gender,status)
 VALUES
-(1,"Mohit","mkmohit@gmail.com","1234567","74599655","bihar","2005-03-08","M","1")
+(1,"Mohit","mkmohit@gmail.com","1234567","74599655","bihar","2005-03-08","M","1"),
+(2,"neha","neha@gmail.com","12345607","745099655","UP","2005-09-20","F",1),
 
 **insert multiple values**
 
 INSERT INTO users
 (id,name,email,password,contact,address,dob,gender,status)
 VALUES
-(2,"neha","neha@gmail.com","12345607","745099655","UP","2005-09-20","F",1),
+(2,"neha","neha@gmail.com","12345607","745099655","UP","2005-09-20","F",0),
 (3,"shreya","shreya@gmail.com","123456017","7450996585","UP","2005-09-12","F",1)
 
 **Display Whole Data**
