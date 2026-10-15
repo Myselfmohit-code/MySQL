@@ -1,7 +1,7 @@
 __Insert Data__
 
 INSERT INTO student
-(id,name,email,password,contact,address,dob,gender,status)
+(id,name,email,password,contact,address,dob,gender,status) 
 VALUES
 (1,"Mohit","mkmohit@gmail.com","1234567","74599655","bihar","2005-03-08","M","1"),
 (2,"neha","neha@gmail.com","12345607","745099655","UP","2005-09-20","F",1),
