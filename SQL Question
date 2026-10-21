@@ -1,1 +1,16 @@
+Que 1. find Second highest salary 
 
+select max(sal) from emp 
+where sal < (select max (sal) from emp);
+
+Que 2. department wise highest salary
+
+select max(sal),deptno
+from emp
+group by deptno
+
+select min(sal),deptno
+from emp
+group by deptno
+
+Que 3. display alternate records
