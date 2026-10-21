@@ -1,5 +1,5 @@
 Que 1. find Second highest salary 
-
+  
 select max(sal) from emp 
 where sal < (select max (sal) from emp);
 
