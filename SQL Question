@@ -13,4 +13,9 @@ select min(sal),deptno
 from emp
 group by deptno
 
-Que 3. display alternate records
+Que 3.display  duplicate in a column 
+
+select ename,count(*)
+from emp
+group by ename
+having count(*)>1;
