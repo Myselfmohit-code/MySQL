@@ -18,4 +18,6 @@ Que 3.display  duplicate in a column
 select ename,count(*)
 from emp
 group by ename
-having count(*)>1;
+having count(*)>1; 
+
+Que 4. 
