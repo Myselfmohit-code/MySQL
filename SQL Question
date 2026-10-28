@@ -11,7 +11,7 @@ group by deptno
 
 select min(sal),deptno
 from emp
-group by deptno
+group by deptno 
 
 Que 3.display  duplicate in a column 
 
