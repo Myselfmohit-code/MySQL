@@ -16,7 +16,7 @@ group by deptno
 Que 3.display  duplicate in a column 
 
 select ename,count(*) 
-from emp
+from emp 
 group by ename
 having count(*)>1; 
 
