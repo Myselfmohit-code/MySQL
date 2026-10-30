@@ -20,4 +20,7 @@ from emp
 group by ename
 having count(*)>1; 
 
-Que 4. 
+Que 4. Display all employees earning more than 40,000.
+
+select * from emply
+where salary > 40000;
