@@ -27,4 +27,8 @@ where salary > 40000;
 
 Que 5. Find the average salary. 
 
- SELECT AVG(salary) FROM Employee
+ SELECT AVG(salary) FROM Employee 
+
+Que 6.Find duplicate salaries.
+
+SELECT salary, COUNT(*) FROM Employee GROUP BY salary HAVING COUNT(*) > 1;
